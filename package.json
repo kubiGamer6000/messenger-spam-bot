@@ -1,0 +1,14 @@
+{
+  "name": "messenger-spambot",
+  "version": "0.0.1",
+  "description": "A messenger spambot using Facebook's Chat API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dolan Bright",
+  "license": "ISC",
+  "dependencies": {
+    "facebook-chat-api": "^1.8.0"
+  }
+}
