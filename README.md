@@ -1,6 +1,6 @@
 # Messenger Spam Bot
 
-Foobar is a Python library for dealing with word pluralization.
+A spam bot using Facebook Chat API
 
 ## Installation
 
