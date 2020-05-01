@@ -14,7 +14,7 @@ npm install
 
 ## Usage
 
-You need to have [Node.js](https://nodejs.org/en/) 12.0.0 or higher.
+You need to have [Node.js](https://nodejs.org/en/) v10 or higher.
 
 ```bash
 node app.js <fb_email> <fb_password> <msg_content> <recipient_userid> <timeout>
