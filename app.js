@@ -12,6 +12,12 @@ login(account, (err, api) => {
 	/// CHECKING FOR ERRORS ///
 	if (err) return console.error(err);
 
+	/// LOGGING ARGUMENTS ///
+	console.log('Email set to: ' + email);
+	console.log('Password set to: ' + password);
+	console.log('Spam phrase: ' + spam);
+	console.log('Recipient ID: ' + id);
+
 	/// SETTING INTERVAL FOR SPAMBOT ///
 	setInterval(() => {
 		/// SENDING MESSAGES ///
@@ -19,6 +25,7 @@ login(account, (err, api) => {
 			/// CHECKING FOR ERRORS ///
 			if (err) return console.error(err);
 			/// LOGGING MESSAGE ID ///
+
 			console.log(`Message sent successfully. ID: ${info.messageID}`);
 		});
 	}, args[4]);
