@@ -4,7 +4,7 @@ A Facbook Messenger spam bot using Node.js with the Facebook Chat API
 
 ## Installation
 
-Use the git clone command.
+Use the `git clone` command. To install needed packages use `npm install`.
 
 ```
 git clone https://github.com/kubiGamer6000/messenger-spam-bot.git
