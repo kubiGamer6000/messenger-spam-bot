@@ -13,10 +13,10 @@ login(account, (err, api) => {
 	if (err) return console.error(err);
 
 	/// LOGGING ARGUMENTS ///
-	console.log('Email set to: ' + email);
-	console.log('Password set to: ' + password);
-	console.log('Spam phrase: ' + spam);
-	console.log('Recipient ID: ' + id);
+	console.log('Email set to: ' + account.email);
+	console.log('Password set to: ' + account.password);
+	console.log('Spam phrase: ' + args[2]);
+	console.log('Recipient ID: ' + args[3]);
 
 	/// SETTING INTERVAL FOR SPAMBOT ///
 	setInterval(() => {
