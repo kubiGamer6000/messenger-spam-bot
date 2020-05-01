@@ -1,6 +1,6 @@
 # Messenger Spam Bot
 
-A spam bot using Facebook Chat API
+A Facbook Messenger spam bot using Node.js with the Facebook Chat API
 
 ## Installation
 
