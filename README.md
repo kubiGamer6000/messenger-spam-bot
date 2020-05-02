@@ -25,6 +25,6 @@ Facebook email and password: `Your facebook account credentials are needed`
 
 MSG content: `The content of the spam message`
 
-Recipient UserID: `The facebook user ID of the recipient` [How do I get it?](https://findmyfbid.in/)
+Victim UserID: `The facebook user ID of the recipient` [How do I get it?](https://findmyfbid.in/)
 
 Timeout: `Timeout between sending messages (in miliseconds)`
